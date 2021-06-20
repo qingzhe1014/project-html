@@ -728,6 +728,10 @@ li {
   margin-bottom: 1rem;
 }
 
+.footer-center-logo {
+	padding-top: 80px;
+}
+
 @media only screen and (max-width: 998px) {
   .footer-container {
     grid-template-columns: repeat(2, 1fr);
