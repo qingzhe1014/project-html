@@ -1483,3 +1483,27 @@ h1, h2, h3, h4, h5, g6
 	background: #393e46;
 	color: #fff;
 }
+
+
+/*======================================
+   CONTENT IN ABOUT US
+========================================*/
+.content-part h1 {
+	text-shadow: 3px 3px 3px #CCCCCC;
+}
+
+
+.content-part p {
+	font-size: 20px; 
+	word-wrap: break-word;
+	letter-spacing: 1px;
+}
+
+
+/*======================================
+   CONTENT IN T&Cs
+========================================*/
+.terms-list {
+	list-style:disc outside none;
+    display:list-item; 
+}
