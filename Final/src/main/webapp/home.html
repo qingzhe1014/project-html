@@ -1,33 +1,119 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="ISO-8859-1">
-	<title>Insert title here</title>
-	<link href = "https://fonts.googleapis.com/css?family=Roboto&display=swap" rel = "stylesheet">
-	<link href = "https://fonts.googleapis.com/css?family=Valky&display=swap" rel = "stylesheet">
-	<link rel = "stylesheet" href = "resources/style.css">
-	
-	<style>
-		body {background: #e5e5e5;}
-	</style>
+	<meta charset = "ISO-8859-1">
+	<meta charset = "UTF-8">
+	<title>Home</title>
+	<link href = "resources/bs5/css/bootstrap.min.css" rel = "stylesheet">
+	<link href = "resources/style.css" rel = "stylesheet" type = "text/css">
+	<link href = "resources/font-awesome/css/font-awesome.min.css" rel = "stylesheet">
 </head>
 
 <body>
-	<div class=e37_1181>
-		<span  class="ei37_1181_37_1111">HOME</span>
-		<span  class="ei37_1181_37_1112">NEW ARRIVALS</span>
-		<span  class="ei37_1181_37_1113">CATEGORIES</span>
-  	<div class="ei37_1181_37_1114"></div>
-  	<div class=ei37_1181_37_1121>
-    <div class="ei37_1181_37_1115">
-    	</div><span  class="ei37_1181_37_1116">SEARCH</span>
-  		</div><span  class="ei37_1181_37_1117">SIGN IN</span>
-  	<div class=ei37_1181_37_1120>
-    <div class="ei37_1181_37_1118"></div>
-    <span  class="ei37_1181_37_1119">CART(2)</span>
-  </div>
-  <span  class="ei37_1181_37_1110">NINE.EVER</span>
-  <div class="ei37_1181_57_212"></div>
-</div>
+	<div class = "super-container">
+		
+		<!-- HEADER -->
+		<header class = "header trans-300">
+			<!-- MAIN NAVIGATION -->
+			<div class = "main-nav-container container">
+				<div class = "row">
+					<div class = "col-lg-12 text-right">
+						<div class = "logo-container">
+							<a href = "#">Nine.<span>Ever</span></a>
+						</div>
+						
+						<nav class = "navbar">
+							<ul class = "navbar-menu">
+								<li><a href = "best-selling.html">Best Selling</a></li>
+								<li><a href = "new-arrivals.html">New Arrivals</a></li>
+								<li><a href = "top.html">Top</a></li>
+								<li><a href = "bottom.html">Bottom</a></li>
+								<li><a href = "set.html">Set</a></li>
+							</ul>
+							
+							<ul class = "navbar-user">
+								<li class = "showBtn"><a href = "#"><i class = "fa fa-search" aria-hidden = "true"></i></a></li>
+								<li><a href = "#"><i class = "fa fa-user" aria-hidden = "true"></i></a></li>
+								<li><a href = "cart.html"><i class = "fa fa-shopping-cart" aria-hidden = "true"></i></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<div class = "break-100"><br/></div>
+		
+		<!-- SEARCH OVERLAY -->
+		<div class = "overlaySearch">
+			<span class = "hideBtn">×</span>
+			<div class = "searchBar">
+				<form>
+					<input type = "text" placeholder = "Search Here...">
+					<button type = "submit"><i class = "fa fa-search"></i></button>
+				</form>
+			</div>
+		</div>
+		
+		<!-- LOGIN/SIGN UP -->
+		
+		
+		<br/>
+		
+		<!-- FOOTER -->
+		<footer class = "footer container-fluid">
+			<div class = "footer-top section">
+				<div class = "container row">
+					<!-- LEFT SIDE -->
+					<div class = "single-footer about col-6 col-lg-3">
+						<div class = "logo">
+							<a href = "home.html"><img class = "mb-2" src = "images/footer-logo.png" alt = "#"></a>
+						</div>
+						
+						<br/>
+						
+						<small class = "d-block mb-3 text-muted">©2020 - 2021. All Rights Reserved.</small>
+					</div>
+					
+					<!-- QUICK LINKS -->
+					<div class = "col-6 col-md">
+						<div class = "single-footer links quick">
+							<h4>Quick Links</h4>
+							<ul class = "list-unstyled text-small">
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "#">About Us</a></li>
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "#">Contact Us</a>
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "#">Size Guide</a>
+							</ul>
+						</div>
+					</div>
+					
+					<!-- HELP -->
+					<div class = "col-6 col-md">
+						<div class = "single-footer links help">
+							<h4>Help</h4>
+							<ul class = "list-unstyled text-small">
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "#">Terms & Conditions</a></li>
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "#">FAQs</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<!-- STAY CONNECTED -->
+					<div class = "col-6 col-md">
+						<div class = "single-footer links social">
+							<h4>Stay Connected</h4>
+							<ul class = "list-unstyled text-small">
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "#"><i class = "fa fa-instagram"></i>&ensp;Instagram</a></li>
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "#"><i class = "fa fa-facebook-official"></i>&ensp;Facebook</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	
+	<script src = "main.js"></script>
+	<script src = "bs5/js/bootstrap.min.js"></script>
 </body>
 </html>
