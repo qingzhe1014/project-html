@@ -1507,3 +1507,135 @@ h1, h2, h3, h4, h5, g6
 	list-style:disc outside none;
     display:list-item; 
 }
+
+/*======================================
+   HOME
+========================================*/
+.grid-container-up {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 10px;
+	padding-left: 380px;
+	padding-right: 380px;
+}
+
+.grid-item-up {
+  padding: 5px;
+}
+
+.grid-container-down {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	padding-left: 420px;
+	padding-right: 420px;
+}
+
+.grid-item-down {
+	padding: 5px;
+}
+
+.overlay {
+	position: absolute;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background: rgba(0, 0, 0, 0.6); 
+}
+
+.overlay-top-left {
+	position: relative;
+	top:0;
+	left: 35px;
+	bottom: 0;
+	right: 30px;
+	height: 100%;
+	width: 95%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background: rgba(0, 0, 0, 0.6); 
+}
+
+.grid-item-up:hover .overlay-top-left {
+	 opacity: 1;
+}
+
+.overlay-top-right {
+	position: relative;
+	top:0;
+	left: -5px;
+	bottom: 0;
+	right: 0px;
+	height: 100%;
+	width: 95%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background: rgba(0, 0, 0, 0.6); 
+}
+
+.grid-item-up:hover .overlay-top-right {
+	 opacity: 1;
+}
+
+.grid-item-up:hover .overlay {
+	 opacity: 1;
+}
+
+.grid-item-down:hover .overlay {
+	 opacity: 1;
+}
+
+.bottom-right {
+	padding: 0px;
+}
+
+.text-top-left {
+	position: absolute; 
+	bottom: -10px;
+	left: 52px;
+	color: #FFFFFF;
+	font-size: 40px;
+}
+
+.text-top-right {
+	position: absolute; 
+	bottom: -10px;
+	left: 15px;
+	color: #FFFFFF;
+	font-size: 40px;
+}
+
+.text-bottom-left {
+	position: absolute; 
+	bottom: -10px;
+	left: 15px;
+	color: #FFFFFF;
+	font-size: 40px;
+}
+
+.text-bottom-middle {
+	position: absolute; 
+	bottom: -10px;
+	left: 15px;
+	color: #FFFFFF;
+	font-size: 40px;
+}
+
+.text-bottom-right {
+	position: absolute; 
+	bottom: -10px;
+	left: 15px;
+	color: #FFFFFF;
+	font-size: 40px;
+}
+
+.middle-part{
+	font-family:  'Playfair Display SC', serif;
+	text-align: center;
+	color: #000000;
+}
