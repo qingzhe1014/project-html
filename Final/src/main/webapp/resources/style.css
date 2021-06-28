@@ -1507,3 +1507,167 @@ h1, h2, h3, h4, h5, g6
 	list-style:disc outside none;
     display:list-item; 
 }
+
+
+
+/*======================================
+   PRODUCT ITEM
+========================================*/
+
+.product-description
+{
+	margin-left: 50px;
+}
+
+.product-description span
+{
+	font-size: 12px;
+	color: #777;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 3px;
+}
+
+.product-description h2
+{
+	font-weight: 500;
+	color: #393e46;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.product-description h5
+{
+	font-size: 16px;
+	font-weight: 400;
+	color: #86939e;
+	line-height: 24px;
+	margin-top: 2px;
+	letter-spacing: 2px;
+}
+
+.product-description .product-color
+{
+	margin-top: 10px;
+}
+
+.product-description .product-color .color-choose div
+{
+	display: inline-block;
+}
+
+.product-description .product-color .color-choose input[type = radio]
+{
+	display: none;
+}
+
+.product-description .product-color .color-choose input[type = radio] + label span
+{
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	margin: 5px 8px 0 0;
+	vertical-align: middle;
+	cursor: pointer;
+	border-radius: 50%;
+	
+}
+
+.product-description .product-color .color-choose input[type = radio] + label span:hover,
+.product-description .product-color .color-choose input[type = radio] + label span:active,
+.product-description .product-color .color-choose input[type = radio] + label span:focus
+{
+	border: 1px solid #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.product-description .product-color .color-choose input[type = radio]#black + label span
+{
+	background-color: #32323c;
+}
+
+.product-description .product-color .color-choose input[type = radio]#beige + label span
+{
+	background-color: #e7e2e2;
+}
+
+.product-description .product-size
+{
+	margin-top: 20px;
+}
+
+.product-description .product-size .size-choose button
+{
+	border: 1px solid #e1e8ee;
+	border-radius: 6px;
+	margin: 3px 10px 0 0;
+	padding: 8px;
+	font-size: 14px;
+	color: #536977;
+	background-color: #fff;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.product-description .product-size .size-choose button:hover,
+.product-description .product-size .size-choose button:active,
+.product-description .product-size .size-choose button:focus
+{
+	background-color: #aad8d3;
+	color: #fff;
+	outline: none;
+}
+
+.product-description .product-size a
+{
+	color: #358ed7;
+	text-decoration: none;
+	font-size: 12px;
+	position: relative;
+	margin: 10px 0;
+	display: inline-block;
+}
+
+.product-description .product-size a:before
+{
+	content: none;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	border: 2px solid rgba(53, 142, 215, 0.5);
+	display: inline-block;
+	text-align: center;
+	line-height: 16px;
+	opacity: 0.5;
+	margin-right: 5px;
+}
+
+.product-description .product-button
+{
+	margin-top: 36px;
+}
+
+.product-description .product-button .product-btn
+{
+	display: inine-block;
+	background-color: #00adb5;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	padding: 12px 66px;
+	width: 60px;
+	transition: all 0.3s ease;
+}
+
+.product-description .product-button .product-btn:hover
+{
+	background: -webkit-linear-gradient(right, #00adb5, #aad8d3);
+}
+
+.similar-products .single-product
+{
+	margin-top: 10px;
+}
