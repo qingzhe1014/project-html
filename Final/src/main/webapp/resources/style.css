@@ -1593,6 +1593,11 @@ h1, h2, h3, h4, h5, g6
 	background-color: #e7e2e2;
 }
 
+.product-description .product-color .color-choose input[type = radio]:checked + label span {
+	border: 3px solid #808080;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
 .product-description .product-size
 {
 	margin-top: 20px;
