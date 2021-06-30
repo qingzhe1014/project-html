@@ -141,6 +141,13 @@ h1, h2, h3, h4, h5, g6
 }
 
 
+.section-title
+{
+	font-family: 'Playfair Display SC', serif;
+	text-align: center;
+	color: #393e46;
+}
+
 /*======================================
    HEADER
 ========================================*/
@@ -1105,26 +1112,6 @@ h1, h2, h3, h4, h5, g6
 	margin: 0;
 }
 
-.shop.checkout .form .create-account
-{
-	margin: 0;
-}
-
-.shop.checkout .form .create-account input
-{
-	width: auto;
-	display: inline-block;
-	height: auto;
-	border-radius: 100%;
-	margin-right: 3px;
-}
-
-.shop.checkout .form .create-account label
-{
-	display: inline-block;
-	margin: 0;
-}
-
 .shop.checkout .order-details
 {
 	margin-top: 30px;
@@ -1547,7 +1534,6 @@ h1, h2, h3, h4, h5, g6
 	vertical-align: middle;
 	cursor: pointer;
 	border-radius: 50%;
-	
 }
 
 .product-description .product-color .color-choose input[type = radio] + label span:hover,
@@ -1566,6 +1552,12 @@ h1, h2, h3, h4, h5, g6
 .product-description .product-color .color-choose input[type = radio]#beige + label span
 {
 	background-color: #e7e2e2;
+}
+
+.product-description .product-color .color-choose input[type = radio]:checked + label span
+{
+	border: 3px solid #808080;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
 }
 
 .product-description .product-size
@@ -1714,11 +1706,4 @@ h1, h2, h3, h4, h5, g6
 {
 	color: #aad8d3;
 	border-color: #aad8d3;
-}
-
-.section-title
-{
-	font-family: 'Playfair Display SC', serif;
-	text-align: center;
-	color: #393e46;
 }
