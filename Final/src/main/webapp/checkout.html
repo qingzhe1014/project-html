@@ -7,6 +7,8 @@
 	<link href = "resources/bs5/css/bootstrap.min.css" rel = "stylesheet">
 	<link href = "resources/style.css" rel = "stylesheet" type = "text/css">
 	<link href = "resources/font-awesome/css/font-awesome.min.css" rel = "stylesheet">
+	
+	<link rel = "icon" type = "image/png" href = "images/small-logo.png">
 </head>
 
 <body>
@@ -19,7 +21,7 @@
 				<div class = "row">
 					<div class = "col-lg-12 text-right">
 						<div class = "logo-container">
-							<a href = "#">Nine.<span>Ever</span></a>
+							<a href = "home.html" class = "section-title">Nine.<span>Ever</span></a>
 						</div>
 						
 						<nav class = "navbar">
@@ -129,13 +131,6 @@
 											<input type = "text" name = "state" placeholder = "" required = "required">
 										</div>
 									</div>
-									
-									<div class = "col-12">
-										<div class = "form-group create-account">
-											<input id = "cbox" type = "checkbox">
-											<label>Create an account?</label>
-										</div>
-									</div>
 								</div>
 							</form>
 							<!-- END FORM -->
@@ -162,8 +157,8 @@
 								<h2>Payment</h2>
 								<div class = "content">
 									<div class = "checkbox">
-										<input name = "updates" id = "1" type = "checkbox"><label class = "checkbox-inline" for = "1">Check Payment</label>
-										<input name = "news" id = "2" type = "checkbox"><label class = "checkbox-inline" for = "2">Cash On Delivery</label>
+										<input name = "updates" id = "1" type = "checkbox"><label class = "checkbox-inline" for = "1">Cash on Delivery</label>
+										<input name = "news" id = "2" type = "checkbox"><label class = "checkbox-inline" for = "2">Online Banking</label>
 										<input name = "news" id = "3" type = "checkbox"><label class = "checkbox-inline" for = "3">Credit Card</label>
 									</div>
 								</div>
@@ -182,7 +177,7 @@
 							<div class = "single-widget get-button">
 								<div class = "content">
 									<div class = "button">
-										<a href = "#" class = "btn">Proceed to Checkout</a>
+										<a href = "checkout.html" class = "btn">Proceed to Payment</a>
 									</div>
 								</div>
 							</div>
@@ -194,10 +189,10 @@
 		</section>
 		<!-- END CHECKOUT -->
 		
-		<div class = "break-100"></div>
+		<br/>
 		
 		<!-- FOOTER -->
-		<footer class = "footer container-fluid">
+		<footer class = "footer container-fluid" style = "padding-left: 300px;">
 			<div class = "footer-top section">
 				<div class = "container row">
 					<!-- LEFT SIDE -->
@@ -216,9 +211,8 @@
 						<div class = "single-footer links quick">
 							<h4>Quick Links</h4>
 							<ul class = "list-unstyled text-small">
-								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "#">About Us</a></li>
-								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "#">Contact Us</a>
-								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "#">Size Guide</a>
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "about-us.html">About Us</a></li>
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "contact.html">Contact Us</a>
 							</ul>
 						</div>
 					</div>
@@ -228,8 +222,8 @@
 						<div class = "single-footer links help">
 							<h4>Help</h4>
 							<ul class = "list-unstyled text-small">
-								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "#">Terms & Conditions</a></li>
-								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "#">FAQs</a></li>
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "terms-conditions.html">Terms & Conditions</a></li>
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "faqs.html">FAQs</a></li>
 							</ul>
 						</div>
 					</div>
@@ -239,8 +233,8 @@
 						<div class = "single-footer links social">
 							<h4>Stay Connected</h4>
 							<ul class = "list-unstyled text-small">
-								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "#"><i class = "fa fa-instagram"></i>&ensp;Instagram</a></li>
-								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "#"><i class = "fa fa-facebook-official"></i>&ensp;Facebook</a></li>
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "https://www.instagram.com/nine.ever/"><i class = "fa fa-instagram"></i>&ensp;Instagram</a></li>
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "https://bit.ly/2SD6tq7"><i class = "fa fa-facebook-official"></i>&ensp;Facebook</a></li>
 							</ul>
 						</div>
 					</div>
@@ -250,6 +244,14 @@
 	</div>
 	
 	<script src = "main.js"></script>
-	<script src = "bs5/js/bootstrap.min.js"></script>
+	<script src = "resources/bs5/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+    		$('input:checkbox').click(function() {
+       			$('input:checkbox').not(this).prop('checked', false);
+    		});
+		});
+	</script>
 </body>
 </html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "ISO-8859-1">
+	<meta charset = "UTF-8">
+	<title>Product Details</title>
+	<link href = "resources/bs5/css/bootstrap.min.css" rel = "stylesheet">
+	<link href = "resources/style.css" rel = "stylesheet" type = "text/css">
+	<link href = "resources/font-awesome/css/font-awesome.min.css" rel = "stylesheet">
+	
+	<link rel = "icon" type = "image/png" href = "images/small-logo.png">
+</head>
+
+<body>
+	<div class = "super-container">
+		
+		<!-- HEADER -->
+		<header class = "header trans-300">
+			<!-- MAIN NAVIGATION -->
+			<div class = "main-nav-container container">
+				<div class = "row">
+					<div class = "col-lg-12 text-right">
+						<div class = "logo-container">
+							<a href = "home.html" class = "section-title">Nine.<span>Ever</span></a>
+						</div>
+						
+						<nav class = "navbar">
+							<ul class = "navbar-menu">
+								<li><a href = "best-selling.html">Best Selling</a></li>
+								<li><a href = "new-arrivals.html">New Arrivals</a></li>
+								<li><a href = "top.html">Top</a></li>
+								<li><a href = "bottom.html">Bottom</a></li>
+								<li><a href = "set.html">Set</a></li>
+							</ul>
+							
+							<ul class = "navbar-user">
+								<li class = "showBtn"><a href = "#"><i class = "fa fa-search" aria-hidden = "true"></i></a></li>
+								<li><a href = "login.html"><i class = "fa fa-user" aria-hidden = "true"></i></a></li>
+								<li><a href = "cart.html"><i class = "fa fa-shopping-cart" aria-hidden = "true"></i></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<div class = "break-100"><br/></div>
+		
+		<!-- SEARCH OVERLAY -->
+		<div class = "overlaySearch">
+			<span class = "hideBtn">×</span>
+			<div class = "searchBar">
+				<form>
+					<input type = "text" placeholder = "Search Here...">
+					<button type = "submit"><i class = "fa fa-search"></i></button>
+				</form>
+			</div>
+		</div>
+		
+		<div class = "break-10"></div>
+		
+		<!-- PRODUCT -->
+		<!-- PRODUCT SLIDER -->
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-md-1"></div>
+				<div class = "col-md-4">
+					<div id = "carouselExampleControls" class = "carousel slide" data-bs-ride = "carousel" data-bs-interval = "10000">
+						<div class = "carousel-inner">
+							<div class = "carousel-item active">
+      							<img src = "images/march/top/A-1119.jpg" class = "d-block w-100" alt = "..." >
+    						</div>
+    				
+    						<div class = "carousel-item">
+      							<img src = "images/march/top/A-1122.jpg" class = "d-block w-100" alt = "...">
+    						</div>
+    
+    						<div class = "carousel-item">
+      							<img src = "images/march/top/A-1116.jpg" class = "d-block w-100" alt = "...">
+    						</div>
+						</div>
+						
+						<button class = "carousel-control-prev" type = "button" data-bs-target = "#carouselExampleControls" data-bs-slide = "prev">
+							<span class = "carousel-control-prev-icon" aria-hidden = "true"></span>
+							<span class = "visually-hidden">Previous</span>
+						</button>
+						
+						<button class = "carousel-control-next" type = "button" data-bs-target = "#carouselExampleControls" data-bs-slide = "next">
+							<span class = "carousel-control-next-icon" aria-hidden = "true"></span>
+							<span class = "visually-hidden">Previous</span>
+						</button>
+					</div>
+				</div>
+				
+				<!-- PRODUCT DETAILS -->
+				<div class = "col-md-6 product-description">
+					<div class = "row">
+						<h2>Classic Oversized Crop Blazer</h2>
+					</div>
+					
+					<div class = "row">
+						<h5 class = "text-muted">RM40</h5>
+					</div>
+					
+					<!-- COLOR PICKER -->
+					<div class = "row">
+						<div class = "product-color">
+							<span>Color</span>
+							
+							<div class = "color-choose">
+								<div>
+									<input type = "radio" id = "black" name = "color" value = "black" checked>
+									<label for = "black"><span></span></label>
+								</div>
+								
+								<div>
+									<input type = "radio" id = "beige" name = "color" value = "beige">
+									<label for = "beige"><span></span></label>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- SIZE PICKER -->
+					<div class = "row">
+						<div class = "product-size">
+							<span>Size</span>
+						
+							<div class = "size-choose">
+								<button>Small</button>
+								<button>Medium</button>
+							</div>
+						</div>
+					
+						<div class = "product-button">
+							<a href = "#" class = "product-btn">Add to cart</a>
+						</div>
+					</div>						
+				</div>
+
+				<div class = "col-md-1"></div>
+			</div>
+		</div>
+		
+		<div class = "break-100"></div>
+		
+		
+		<!-- SIMILAR PRODUCTS -->
+		<div class = "container">
+			<div class = "container row mt-5">
+				<h5>YOU MAY ALSO LIKE</h5>
+			</div>
+		
+			<div class = "container row similar-products">
+				<!-- PRODUCT 1 -->
+				<div class = "col-md-3">
+					<div class = "single-product">
+						<div class = "product-img">
+							<a href = "product-details.html">
+								<img class = "default-img" src = "images/march/top/IMG_0619.JPG" alt = "#">
+								<img class = "hover-img" src = "images/march/top/IMG_0620.JPG" alt = "#">
+							</a>
+										
+							<div class = "button-head">
+								<div class = "product-action">
+									<a title = "Add to cart" href = "#">Add to cart</a>
+								</div>
+							</div>
+						</div>
+									
+						<div class = "product-content">
+							<h3><a href = "product-details.html">Ruched Cami Top</a></h3>
+							<div class = "product-price">
+								<span>RM18.00</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- PRODUCT 2 -->
+				<div class = "col-md-3">
+					<div class = "single-product">
+						<div class = "product-img">
+							<a href = "product-details.html">
+								<img class = "default-img" src = "images/march/bottom/A-1215.jpg" alt = "#">
+								<img class = "hover-img" src = "images/march/bottom/A-1216.jpg" alt = "#">
+							</a>
+											
+							<div class = "button-head">
+								<div class = "product-action">
+									<a title = "Add to cart" href = "#">Add to cart</a>
+								</div>
+							</div>
+						</div>
+										
+						<div class = "product-content">
+							<h3><a href = "product-details.html">Ready-2-Go Short Pants</a></h3>
+							<div class = "product-price">
+								<span>RM29.00</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- PRODUCT 3 -->
+				<div class = "col-md-3">
+					<div class = "single-product">
+						<div class = "product-img">
+							<a href = "product-details.html">
+								<img class = "default-img" src = "images/march/top/IMG_0612.JPG" alt = "#">
+								<img class = "hover-img" src = "images/march/top/IMG_0614.JPG" alt = "#">
+							</a>
+										
+							<div class = "button-head">
+								<div class = "product-action">
+									<a title = "Add to cart" href = "#">Add to cart</a>
+								</div>
+							</div>
+						</div>
+									
+						<div class = "product-content">
+							<h3><a href = "product-details.html">Singlet Bra Top</a></h3>
+							<div class = "product-price">
+								<span>RM18.00</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- PRODUCT 4 -->
+				<div class = "col-md-3">
+					<div class = "single-product">
+						<div class = "product-img">
+							<a href = "product-details.html">
+								<img class = "default-img" src = "images/march/bottom/A-1100.jpg" alt = "#">
+								<img class = "hover-img" src = "images/march/bottom/IMG_0671.JPG" alt = "#">
+							</a>
+											
+							<div class = "button-head">
+								<div class = "product-action">
+									<a title = "Add to cart" href = "#">Add to cart</a>
+								</div>
+							</div>
+						</div>
+										
+						<div class = "product-content">
+							<h3><a href = "product-details.html">H. Waist Street Style Jogger Pants</a></h3>
+							<div class = "product-price">
+								<span>RM30.00</span>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class = "break-100"></div>
+		
+		<!-- FOOTER -->
+		<footer class = "footer container-fluid" style = "padding-left: 300px;">
+			<div class = "footer-top section">
+				<div class = "container row">
+					<!-- LEFT SIDE -->
+					<div class = "single-footer about col-6 col-lg-3">
+						<div class = "logo">
+							<a href = "home.html"><img class = "mb-2" src = "images/footer-logo.png" alt = "#"></a>
+						</div>
+						
+						<br/>
+						
+						<small class = "d-block mb-3 text-muted">©2020 - 2021. All Rights Reserved.</small>
+					</div>
+					
+					<!-- QUICK LINKS -->
+					<div class = "col-6 col-md">
+						<div class = "single-footer links quick">
+							<h4>Quick Links</h4>
+							<ul class = "list-unstyled text-small">
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "about-us.html">About Us</a></li>
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "contact.html">Contact Us</a>
+							</ul>
+						</div>
+					</div>
+					
+					<!-- HELP -->
+					<div class = "col-6 col-md">
+						<div class = "single-footer links help">
+							<h4>Help</h4>
+							<ul class = "list-unstyled text-small">
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "terms-conditions.html">Terms & Conditions</a></li>
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "faqs.html">FAQs</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<!-- STAY CONNECTED -->
+					<div class = "col-6 col-md">
+						<div class = "single-footer links social">
+							<h4>Stay Connected</h4>
+							<ul class = "list-unstyled text-small">
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "https://www.instagram.com/nine.ever/"><i class = "fa fa-instagram"></i>&ensp;Instagram</a></li>
+								<li class = "mb-1"><a class = "link-secondary text-decoration-none" href = "https://bit.ly/2SD6tq7"><i class = "fa fa-facebook-official"></i>&ensp;Facebook</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	
+	<script src = "main.js"></script>
+	<script src = "resources/bs5/js/bootstrap.min.js"></script>
+</body>
+</html>
