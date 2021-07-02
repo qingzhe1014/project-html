@@ -21,13 +21,13 @@
 		if("resetDone".equals(msg))
 		{
 		%>
-		<h1 style = "text-align: center">Reset Password Successfully</h1>
+		<h1 style = "text-align: center; color: #00adb5;" class = "section-title">Reset Password Successfully</h1>
 		<%}	%>
 		<%
 		if("resetFail".equals(msg))
 		{
 		%>
-		<h1 style = "text-align: center">Failed to Reset Password</h1>
+		<h1 style = "text-align: center; color: #f54748;" class = "section-title">Failed to Reset Password</h1>
 		<%}%>
 		
 		<div class = "forgot-password container">
