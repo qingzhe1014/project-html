@@ -322,7 +322,6 @@ h1, h2, h3, h4, h5, g6
 	opacity: 0.9;
 }
 
-
 /*======================================
    LOGIN / SIGNUP
 ========================================*/
@@ -512,6 +511,19 @@ h1, h2, h3, h4, h5, g6
   	text-decoration: underline;
 }
 
+.login-signup .form-inner form .field select
+{
+	height: 100%;
+  	width: 100%;
+  	outline: none;
+  	padding: 0 10px;
+  	border-radius: 5px;
+  	border: 1px solid #eeeeee;
+  	border-bottom-width: 2px;
+  	font-size: 17px;
+  	transition: all 0.3s ease;
+}
+
 .login-signup form .btn
 {
   	height: 50px;
@@ -565,10 +577,9 @@ h1, h2, h3, h4, h5, g6
 	padding: 30px;
 	border-radius: 5px;
 	box-shadow: 2px 15px 20px rgba(0, 0, 0, 0.1);
-	margin-top: 80px;
 	display: block;
-	width: 50%;
-	margin: 0 auto;
+	width: 60%;
+	margin: -20px auto;
 }
 
 .forgot-password .wrapper .title-text
@@ -629,6 +640,20 @@ h1, h2, h3, h4, h5, g6
   	width: 100%;
   	outline: none;
   	padding-left: 15px;
+  	border-radius: 5px;
+  	border: 1px solid #eeeeee;
+  	border-bottom-width: 2px;
+  	font-size: 17px;
+  	transition: all 0.3s ease;
+  	
+}
+
+.forgot-password .form-inner form .field select
+{
+	height: 100%;
+  	width: 100%;
+  	outline: none;
+  	padding: 0 10px;
   	border-radius: 5px;
   	border: 1px solid #eeeeee;
   	border-bottom-width: 2px;
